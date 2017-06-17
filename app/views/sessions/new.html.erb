@@ -1,0 +1,9 @@
+
+<h1>Welcome back!!</h1>
+<h1>Please log in!</h1>
+
+<%= form_tag sessions_path do %>
+<%= text_field_tag :name, "Enter your name" %>
+<%= text_field_tag :password, "Enter your password" %>
+<%= submit_tag "Login!" %>
+<% end %>
